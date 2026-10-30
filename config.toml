@@ -1,0 +1,23 @@
+# Absatzplanung: keine Telemetrie, keine Fehlerdetails im Browser
+
+[server]
+maxUploadSize = 200
+enableXsrfProtection = true
+enableCORS = true
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "none"
+
+[theme]
+base = "light"
+primaryColor = "#000055"
+backgroundColor = "#F5F6FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#000055"
+font = "sans-serif"
+borderColor = "#EBEBEB"
